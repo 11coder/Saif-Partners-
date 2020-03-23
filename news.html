@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>News-SAIF Partners</title>
+		<style>
+			* {
+			box-sizing: border-box;
+			}
+			hr{
+			border:1px solid black;}
+			.column {
+			float: left;
+			width: 50%;
+			padding:5px;
+			}
+
+			.row::after {
+			content: "";
+			clear: both;
+			display: table;
+			}
+			.column a:hover {
+  background-color:white;
+  color: black;
+}
+			.column2{
+	margin-top:40px;
+	margin-bottom:10px;
+	overflow: hidden;
+  background-color: white;
+}
+.column2 a{
+	float: left;
+	color:black;
+	display:block;
+	background-color:white;
+	text-align: left;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+.column2 a:hover {
+  background-color:black;
+  color: white;
+}
+.column2 {
+			float: left;
+			width: 50%;
+			padding: 5px;
+		}
+
+		.row2::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.column1 {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+		.row1::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="header">
+			<div class="row2">
+			<div class="column2">
+				<img src="data:image/jpeg;base64,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" width="75" height="75" style="margin-left:12rem;">
+			</div>
+			<div class="column2">
+				<a href="portfolio.html" >Portfolio</a>
+				<a href="team.html" >Team</a>
+				<a href="about.html" >About</a>
+				<a href="news.html" >News</a>
+				<a href="contact.html" >Reach Us</a>
+			</div>
+			</div>
+				
+		</div>
+		<h1 style="font-size:180px;margin-left:12rem;margin-bottom:10px;">News</h1>
+		<p style="font-size:70px; margin-top:10px;margin-left:12rem;margin-bottom:10px;" >...<p>
+		<p style="font-size:25px;margin-left:12rem;margin-bottom:20px;">Get the latest updates and insights<br>about our company..</p>
+		<hr>
+		<div class="row">
+		<div class="column" >
+			<h2 style="margin-left:12rem">Press</h2>
+			<div class="row">
+			<div  class="column" style="background-color:pink">
+				<p>Aug 16,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/08/15/sharechat-twitter-seriesd/"><p style="font-weight=bold;font-size:30px;">Twitter leads USD <br>100Mn round in ShareChat</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Aug 12,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/08/11/meesho-india/"><p style="font-weight=bold;font-size:30px;">Meesho raises USD 125Mn from Naspers,Facebook</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Aug 02,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/08/01/urbanclap-indias-largest-home-services-startup-raises-75m/"><p style="font-weight=bold;font-size:30px;">UrbanClap raises USD 75Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jul 30,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://samsung.dailyhunt.in/news/india/english/yourstory-epaper-yourstory/indian+logistics+startup+rivigo+granted+us+patent+for+its+driver+system-newsid-128003372?mode=pwa&s=Samsung&ss=Browser-UHP&utm_source=Samsung&utm_medium=Browser-UHP&utm_campaign=Samsung-Browser-UHP&lite=true&prevRef=samsung&partnerRef=%7B%22pid%22%3A%22samsung%22%7D&puid=505783526058451Android8.0.0SAMSUNGSM-G955FBuildR16NW2.754g100"><p style="font-weight=bold;font-size:30px;">Rivigo gets US Patent for driver relay tech</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jul 29,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="http://www.forbesindia.com/article/vc-and-pe-special/indias-top-25-venture-capital-firms/54433/1"><p style="font-weight=bold;font-size:30px;">Ravi,Deepak and Mukul in India's top 25 VCs</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jul 19,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/et-startup-awards-2019-nominees-for-the-midas-touch-category/articleshow/70286999.cms?from=mdr"><p style="font-weight=bold;font-size:30px;">Mukul nominated for Midas Touch award</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jul 11,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/07/10/rivigo-india-seriese/"><p style="font-weight=bold;font-size:30px;">Rivigo raises<br> USD 65Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jun 27,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2019/06/funding-startup-unacademy-50-million-sequoia-nexus-haptik-udaan"><p style="font-weight=bold;font-size:30px;">Unacademy  raises USD 50Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jun 19,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.thehindubusinessline.com/info-tech/finwego-raises-17-mn-from-saif-partners-others/article28076012.ece"><p style="font-weight=bold;font-size:30px;">Finwego  raises USD 1.7Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jun 05,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/06/05/india-nobroker-51-million/"><p style="font-weight=bold;font-size:30px;">NoBroker raises USD 51Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>May 28,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2019/05/startup-funding-social-travel-commerce-airblack-saif-partners"><p style="font-weight=bold;font-size:30px;">Airblack raises USD 1.5Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>May 21,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://tech.economictimes.indiatimes.com/news/startups/saif-partners-accel-partners-lead-13-2m-series-a-funding-round-in-spinny/69429595"><p style="font-weight=bold;font-size:30px;">Spinny raises<br> USD 13Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Mar 13,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://techcrunch.com/2019/03/13/acko-a-digital-insurance-provider-in-india-raises-another-65m-at-a-300m-valuation/"><p style="font-weight=bold;font-size:30px;">Acko raises <br>USD 65Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Mar 08,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.vccircle.com/aye-finance-raises-funding-from-falcon-edge-capitalg-others/"><p style="font-weight=bold;font-size:30px;">Aye Finance raises USD 36Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Feb 19,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2019/02/sme-loan-platform-ziploan-raises-rs-90-cr-rou-xw5uuslvmt"><p style="font-weight=bold;font-size:30px;">Ziploan raises INR 90Cr.</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Dec 29,2019 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/swiggy-raises-mega-1-billion-round-valuation-swells-to-3-3-billion/articleshow/67175947.cms?from=mdr"><p style="font-weight=bold;font-size:30px;">Swiggy raises USD 1Bn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Dec 28,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.financialexpress.com/industry/high-street-secures-rs-60-crore-funding-from-saif-partners/1426997/"><p style="font-weight=bold;font-size:30px;">High Street Essentials raises INR 60Cr.</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Dec 19,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://tech.economictimes.indiatimes.com/news/startups/toppr-raises-35-million-from-kaizen-private-equity-and-existing-investors/67151785"><p style="font-weight=bold;font-size:30px;">Toppr raises<br> USD 35Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Nov 21,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.livemint.com/Companies/Ld8H3fxid6m9MNy0LXHxaI/DeTect-Technologies-raises-33-million-from-SAIF-Partners.html"><p style="font-weight=bold;font-size:30px;">Detect raises<br> USD 3.3 Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Oct 23,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2018/10/tax-filing-startup-cleartax-raises-50m-series-b-funding-accelerate-growth"><p style="font-weight=bold;font-size:30px;">Cleartax raises USD 50Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Sep 26,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2018/09/sensehawk-offers-analytics-data-collected-drones-impresses-saif-partners-invest-2-m/"><p style="font-weight=bold;font-size:30px;">SAIF invests USD 2Mn in Sensehawk</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Sep 20,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://twitter.com/AnkushSach/status/1042704659876478976?mc_cid=f9dfa29365&mc_eid=[UNIQID]"><p style="font-weight=bold;font-size:30px;">How ShareChat is impacting lives of Indians</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Sep 07,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2018/09/chaayos-raises-12-m-saif-partners-others/"><p style="font-weight=bold;font-size:30px;">Chaayos raises USD 12Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Aug 27,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.livemint.com/Companies/Dt3TNIoOJxq7YQMprjFUlK/Coverfox-gets-22-million-funding-from-Transamerica-others.html"><p style="font-weight=bold;font-size:30px;">Berkshire Hathway invests in Paytm></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jul 24,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://tech.economictimes.indiatimes.com/news/startups/lifcare-raises-11mn-led-by-saif-partners-nexus-venture-partners/65118590"><p style="font-weight=bold;font-size:30px;">LifeCare raises USD 11Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jul 18,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2018/07/bookmyshow-raises-100-million-series-d-tpg-growth-others"><p style="font-weight=bold;font-size:30px;">BookMyShow raises USD 100Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jul 16,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.livemint.com/Companies/4FYqNtsrFNBCXX5zSG9DMK/Edtech-firm-Unacademy-raises-21-million-from-Sequoia-SAIF.html"><p style="font-weight=bold;font-size:30px;">Unacademy raises USD 21Mn</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jun 21,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.livemint.com/Companies/qgWTRQ1vNloAZLishcrwPL/Swiggy-becomes-second-unicorn-after-Zomato-in-Indias-foodt.html"><p style="font-weight=bold;font-size:30px;">Swiggy raises USD 210Mn</p></a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column" style="background-color:pink">
+				<p>Jun 19,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://www.bloombergquint.com/technology/deal-street-googles-investment-arm-backs-msme-lending-startup-aye-finance"><p style="font-weight=bold;font-size:30px;">CapitalG invests in Aye Finance</p></a>
+			</div>
+			<div class="column" style="background-color:pink">
+				<p>Jun 07,2018 &nbsp;&nbsp;&nbsp;&nbsp;News</p>
+				<a href="https://yourstory.com/2018/06/the-f-word-meesho-raises-series-b-funding-of-11-5-m-funding-led-by-sequoia-capital/"><p style="font-weight=bold;font-size:30px;">Meesho raises USD 11.5Mn</p></a>
+			</div>
+			</div>
+		</div>
+		<div class="column">
+			<h2 style="margin-left:12rem">Insights</h2>
+			<div>
+				<a href="https://yourstory.com/2019/08/startup-investor-saif-partners-india-mayank-khanduja"><p style="font-weight=bold;font-size:20px;">Betting early and helping startups grow</p></a>
+				<p>Aug 06,2019 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://www.techcircle.in/2019/08/02/watch-extremely-bullish-on-b2b-saas-startups-from-india-alok-goel-saif-partners"><p style="font-weight=bold;font-size:20px;">Extremely bullish on SaaS startups</p></a>
+				<p>Aug 02,2019 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://www.livemint.com/companies/news/saif-partners-catches-them-young-makes-big-bucks-with-seed-stage-bets-1563122584611.html"><p style="font-weight=bold;font-size:20px;">SAIF partners catch them young</p></a>
+				<p>Jul 14,2019 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://yourstory.com/2018/07/content-needs-india-users-nike-framework/"><p style="font-weight=bold;font-size:20px;">The N.I.K.E framework for content in India/p></a>
+				<p>Jul 16,2018 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://medium.com/saif-partners/the-making-of-sharechat-story-and-the-way-forward-b5031a047810"><p style="font-weight=bold;font-size:20px;">The making of ShareChat</p></a>
+				<p>Feb 02,2018 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://medium.com/saif-partners/watch-out-content-creators-your-monetization-channel-is-at-risk-db346dc903e2"><p style="font-weight=bold;font-size:20px;">Watch out content creators</p></a>
+				<p>Oct 13,2017 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://economictimes.indiatimes.com/small-biz/money/we-are-seeing-an-increase-in-localised-business-models-saif-partners/articleshow/59801540.cms"><p style="font-weight=bold;font-size:20px;">We are seeing an increase in loaclised business models:SAIF Partners </p></a>
+				<p>Jul 28,2017 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.dealstreetasia.com/stories/exclusive-despite-slowdown-talks-its-best-time-for-investors-to-make-bets-mayank-khanduja-saif-partners-59982/"><p style="font-weight=bold;font-size:20px;">Despite talks of slowdown,it's best time to make bets :Mayank Khanduja,SAIF Partners</p></a>
+				<p>Dec 08,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://m.yourstory.com/2016/08/saif-partners/"><p style="font-weight=bold;font-size:20px;">Why SAIF Partners is bullish on seed companies</p></a>
+				<p>Aug 30,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.moneycontrol.com/news/cnbc-tv18-comments/start-up-journeyalok-goel-from-employee-to-investor_6568681.html"><p style="font-weight=bold;font-size:20px;">Start-Up Journey of Alok Goel:From employee to investor</p></a>
+				<p>May 06,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.dealstreetasia.com/stories/39307-39307/"><p style="font-weight=bold;font-size:20px;">We see lot of consolidation,M&As in next 12 months:Deepak Gaur,SAIF Partners</p></a>
+				<p>May 02,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://yourstory.com/2016/03/fundraise-tip-alok-goel/"><p style="font-weight=bold;font-size:20px;">Why it is important to think through your fundraise ask before starting the fundraise</p></a>
+				<p>Mar 14,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://yourstory.com/2016/03/are-you-building-a-business-product-hack-alok-goel/"><p style="font-weight=bold;font-size:20px;">What are you building- a business,a product or hack?</p></a>
+				<p>Mar 07,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.saifpartners.com/news/"><p style="font-weight=bold;font-size:20px;">What we need to solve India's biggest problems</p></a>
+				<p>Feb 02,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="https://analyse.asia/2016/01/20/episode-88-india-startup-ecosystem-saif-partners-with-deepak-gaur/"><p style="font-weight=bold;font-size:20px;">India Startup Ecosystem & SAIF Partners with Deepak Gaur</p></a>
+				<p>Jan 20,2016 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.livemint.com/Companies/Zrw8NvnME3uTWX102Z4EZN/Saif-Partners--Betting-big-on-tech-revolution.html"><p style="font-weight=bold;font-size:20px;">Saif Partners|Betting big on tech revolution</p></a>
+				<p>Nov 27,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.financialexpress.com/article/industry/companies/we-live-in-a-do-it-for-me-society-mukul-arora-principal-saif-partners/132041/"><p style="font-weight=bold;font-size:20px;">We live in a do-it-for-me society</p></a>
+				<p>Sep 08,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://economictimes.indiatimes.com/small-biz/startups/grofers-peppertap-tinyowl-want-to-prove-hyperlocal-isnt-only-hype/articleshow/48838882.cms"><p style="font-weight=bold;font-size:20px;">Hyperlocal isn't only Hype</p></a>
+				<p>Sep 08,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.saifpartners.com/news/"><p style="font-weight=bold;font-size:20px;">Vertical e-commerce is a safer bet than capital intensive horizontals</p></a>
+				<p>Jul 14,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.at-venture-trail.com/post/123966696152/why-saif-invested-in-peer-to-peer-pre-owned-car"><p style="font-weight=bold;font-size:20px;">Why SAIF invested in P2P pre-owned car marketplace Zoomo</p></a>
+				<p>Jul 07,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+			<hr style="border:1px solid black;margin-left:0rem;">
+			<div>
+				<a href="http://www.at-venture-trail.com/post/123450654517/a-fertile-landscape"><p style="font-weight=bold;font-size:20px;">A Fertile Landscape</p></a>
+				<p>Jul 07,2015 &nbsp;&nbsp;&nbsp;&nbsp;Insights</p>
+			</div>
+		</div>
+		</div>
+		<hr>
+		<div id="footer" style="margin-left:12rem;">
+			<div class="row1">
+			<div class="column1">
+				<h4>Discover</h4>
+				<a href="portfolio.html" >Portfolio</a><br>
+				<a href="team.html" >Team</a><br>
+				<a href="about.html" >About</a><br>
+				<a href="news.html" >News</a><br>
+				<a href="contact.html" >Reach Us</a>
+			</div>
+			<div class="column1">
+				<h4>Connect</h4>
+				<p>+91 124 4965500</p>
+				<p>info@saifpartners.com</p>
+			</div>
+			<div class="column1">
+				<h4>Subscribe to our newsletter</h4>
+				<form action="">
+					<label for="email" >Type your email address please</label><br><br>
+					<input type="email" id="email" name="email" value=""><br><br>
+					<input type="submit" value="Subscribe Now">
+				</form>
+			</div>
+			</div>
+			<p>&copy;2017 SAIF Partners. All Rights Reserved</p>
+		</div>
+	</body>
+</html>
+		

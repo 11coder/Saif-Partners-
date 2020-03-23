@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				background-color:#E0E0E0;
+			}
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+            $(document).ready(function(){
+                $("img").hover(function(){
+                var r = Math.floor(Math.random() * 255);
+                var g = Math.floor(Math.random() * 255);
+                var b = Math.floor(Math.random() * 255);
+                 var color = 'rgb(' + r + ',' + g + ',' + b + ')';
+                 $(this).css("background-color",color);
+                },
+                function() {
+					$(this).css({"background-color":"#E0E0E0"});
+				});
+            });
+        </script>
+		
+	</head>
+	<body>
+		<div class="row">
+		<div class="column"><a href="crowd.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/1_crowdanalytix_white.png" alt="CROWD ANALYTIX" width="150" height="150"/></a></div>
+		<div class="column"><a href="detect.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/DT_white-1.png" alt="DETECT TECHNOLOGIES" width="150" height="150"/></a></div>
+		<div class="column"><a href="fareye.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/fareye_white.png" alt="FAR EYE" width="150" height="150"/></a></div>
+		</div>
+		<div class="row">
+		<div class="column"><a href="goodera.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/goodera-w.png" alt="GOODERA" width="150" height="150"/></a></div>
+		<div class="column"><a href="playment.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/playmentwhite.png" alt="PLAYMENT" width="150" height="150"/></a></div>
+		<div class="column"><a href="tracxn.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/tracxnwhite.png" alt="TRACXN" width="150" height="150"/></a></div>
+		</div>
+	</body>
+</html>

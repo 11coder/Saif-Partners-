@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+.bnav{
+	margin-top:100px;
+	margin-left:12rem;
+	margin-bottom:30px;
+	overflow: hidden;
+  background-color: white;
+}
+.bnav a{
+	float: left;
+	display:block;
+	color:black;
+	background-color:grey;
+	text-align: center;
+	padding: 14px 16px;
+	margin-right:40px;
+	text-decoration: none;
+}
+.bnav a:hover {
+  background-color:black;
+  color: white;
+}
+hr{
+	margin-left:12rem;
+	border:1px solid black;
+}
+.inav1{
+	margin-top:40px;
+	margin-left:12rem;
+	margin-bottom:20px;
+	overflow: hidden;
+  background-color: white;
+}
+.inav1 a{
+	float: left;
+	color:black;
+	display:block;
+	background-color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.inav1 a:hover {
+  background-color:black;
+  color: white;
+}
+.inav2{
+	margin-top:40px;
+	margin-left:12rem;
+	margin-bottom:20px;
+	overflow: hidden;
+  background-color: white;
+}
+.inav2 a{
+	float: left;
+	display:block;
+	color:black;
+	background-color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.inav2 a:hover {
+  background-color:black;
+  color: white;
+}

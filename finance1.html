@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				background-color:#E0E0E0;
+			}
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+            $(document).ready(function(){
+                $("img").hover(function(){
+                var r = Math.floor(Math.random() * 255);
+                var g = Math.floor(Math.random() * 255);
+                var b = Math.floor(Math.random() * 255);
+                 var color = 'rgb(' + r + ',' + g + ',' + b + ')';
+                 $(this).css("background-color",color);
+                },
+                function() {
+					$(this).css({"background-color":"#E0E0E0"});
+				});
+            });
+        </script>
+		
+	</head>
+	<body>
+		<div class="row" >
+		<div class="column"><a href="arman.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/Arman-logo_White2.png" alt="ARMAN" width="150" height="150"/></a></div>
+		<div class="column"><a href="edelweiss.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/EDELWEISSWIHTE.png" alt="EDELWEISS" width="150" height="150"/></a></div>
+		<div class="column"><a href="jm.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/JMFL-logo_White.png" alt="JM FINANCIAL" width="150" height="150"/></a></div>
+		</div>
+		<div class="row">
+		<div class="column"><a href="karur.html" target="_blank"><img src="http://www.saifpartners.com/wp-content/uploads/kvblogo_white.png" alt="KARUR VYSYA BANK" width="150" height="150"/></a></div>
+		</div>
+	</body>
+</html>
